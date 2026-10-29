@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+# docker compose wrapper for the Wildbook stack: upstream compose file from the
+# pinned submodule + our override, secrets from the git-ignored .env here.
+# Usage: ./wb up -d | ./wb ps | ./wb logs -f wildbook | ./wb restart wildbook
+here=$(cd "$(dirname "$0")" && pwd)
+exec docker compose \
+  --env-file "$here/.env" \
+  -f "$here/../Wildbook/devops/development/docker-compose.yml" \
+  -f "$here/docker-compose.override.yml" \
+  "$@"

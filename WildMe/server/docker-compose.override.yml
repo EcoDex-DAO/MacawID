@@ -1,0 +1,45 @@
+# Server overrides: only Wildbook is public (port 80); db and opensearch on localhost.
+# Project name "compose" keeps the volumes created by the first install.
+name: compose
+services:
+  db:
+    ports: !override
+      - "127.0.0.1:5433:5432"
+    restart: unless-stopped
+  wildbook:
+    ports: !override
+      - "80:8080"
+    volumes:
+      # replaces the submodule's copy (same target path; relative to Wildbook/devops/development); adds Delphinapterus leucas
+      - ../../../server/config/commonConfiguration.properties:/usr/local/tomcat/webapps/wildbook_data_dir/WEB-INF/classes/bundles/commonConfiguration.properties
+    restart: unless-stopped
+  opensearch:
+    ports: !override
+      - "127.0.0.1:9200:9200"
+    restart: unless-stopped
+  # WBIA (Wildbook IA) — added 2026-10-29 by codex-desktop, per the lead's rule:
+  # only the MacawID override is the source of truth for this stack.
+  # Image: derived from wildme/wbia:nightly to fix the upstream
+  # fix_annotation_orientation_issue ImportError (see /opt/wildme/wbia-fix).
+  # ISOLATED: own SQLite database in /opt/wildme/wbia-data-new (NOT the Wildbook
+  # PostgreSQL), own cache in /opt/wildme/wbia-cache. Web on 127.0.0.1:5000 only.
+  wbia:
+    image: wildme/wbia:nightly-wbiafix
+    runtime: nvidia
+    environment:
+      - NVIDIA_VISIBLE_DEVICES=all
+      - TF_FORCE_GPU_ALLOW_GROWTH=true
+    volumes:
+      - /opt/wildme/wbia-data-new:/data
+      - /opt/wildme/wbia-cache:/cache
+      - /opt/wildme/wbia-config:/v_config
+    ports: !override
+      - "127.0.0.1:5000:5000"
+    networks:
+      - intranet
+    restart: unless-stopped
+  # not used on this server
+  smtp:
+    profiles: [unused]
+  autoheal:
+    profiles: [unused]
