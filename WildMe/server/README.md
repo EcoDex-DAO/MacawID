@@ -4,7 +4,7 @@ Wildbook (pinned in `../Wildbook`) running with Docker Compose on `65.108.33.121
 
 | Service    | Image                                   | Exposure              |
 |------------|-----------------------------------------|-----------------------|
-| wildbook   | `tomcat:9.0.113-jre17-temurin-jammy`    | public, port 81       |
+| wildbook   | `tomcat:9.0.113-jre17-temurin-jammy`    | public, port 80       |
 | db         | `pgvector/pgvector:pg13`                | 127.0.0.1:5433        |
 | opensearch | `opensearchproject/opensearch:3.1.0`    | 127.0.0.1:9200        |
 

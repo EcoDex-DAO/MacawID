@@ -1,4 +1,4 @@
-# Server overrides: only Wildbook is public (port 81); db and opensearch on localhost.
+# Server overrides: only Wildbook is public (port 80); db and opensearch on localhost.
 # Project name "compose" keeps the volumes created by the first install.
 name: compose
 services:
@@ -7,6 +7,8 @@ services:
       - "127.0.0.1:5433:5432"
     restart: unless-stopped
   wildbook:
+    ports: !override
+      - "80:8080"
     restart: unless-stopped
   opensearch:
     ports: !override
