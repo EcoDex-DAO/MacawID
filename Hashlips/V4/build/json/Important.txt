@@ -1,0 +1,4 @@
+Attention Haslips ne génère pas le fichier collection.js
+Il a été généré par Chatgpt en fonction d'un fichier.json généré par hashlips.
+
+Il y a des données a réécrire comme le wallet qui recoit les royalties

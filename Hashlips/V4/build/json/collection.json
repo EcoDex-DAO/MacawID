@@ -1,0 +1,27 @@
+{
+  "name": "QuipEcos — Guacamayas (Collection)",
+  "symbol": "LGM",
+  "description": "Collection officielle QuipEcos — Guacamayas : art inspiré des cultures préhispaniques, dédié à la transition écologique et à la protection de la biodiversité.",
+  "seller_fee_basis_points": 300,
+  "image": "collection.png",
+  "external_url": "https://www.quipecos.com/nft/lgm/collection",
+  "attributes": [
+    { "trait_type": "Project", "value": "QuipEcos" },
+    { "trait_type": "Theme", "value": "Guacamayas" }
+  ],
+  "properties": {
+    "files": [
+      { "uri": "collection.png", "type": "image/png" }
+    ],
+    "category": "image",
+    "creators": [
+      { "address": "<DAO_MULTISIG_WALLET>", "share": 100 }
+    ]
+  },
+  "extensions": {
+    "schema": "quipecos.extensions.collection.v1",
+    "notes": null,
+    "last_modified": null,
+    "updater": null
+  }
+}

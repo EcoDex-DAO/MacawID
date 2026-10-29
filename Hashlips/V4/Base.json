@@ -1,0 +1,35 @@
+{
+  "name": "Las Guacamayas #0001",
+  "symbol": "LGM",
+  "description": "Un Ara de la collection QuipEcos, inspiré des cultures préhispaniques et du travail de protection.",
+  "seller_fee_basis_points": 300,
+  "image": "1.png",
+  "external_url": "https://www.quipecos.com/nft/lgm/1",
+  "edition": 1,
+  "collection": {
+    "name": "QuipEcos - Guacamayas",
+    "family": "QuipEcos Collection"
+  },
+  "attributes": [
+    { "trait_type": "Background", "value": "Jungle" },
+    { "trait_type": "Plumage", "value": "Red" },
+    { "trait_type": "Tattoo", "value": "Xochiquetzal" }
+  ],
+  "properties": {
+    "files": [{ "uri": "1.png", "type": "image/png" }],
+    "category": "image",
+    "creators": [{ "address": "<DAO_MULTISIG_WALLET>", "share": 100 }]
+  },
+  "extensions": {
+    "ara_id": null,
+    "ara_name": null,
+    "id_source": "general",
+    "id_proof_uri": null,
+    "notes": null,
+    "linked_at": null,
+    "named_at": null,
+    "last_modified": null,
+    "updater": null
+  }
+}
+

@@ -1,0 +1,197 @@
+[
+  {
+    "name": "Your Collection #1",
+    "description": "Remember to replace this description",
+    "image": "ipfs://NewUriToReplace/1.png",
+    "dna": "1ec45a62fcd6693e8e93377d2e8601f8b1e2bb92",
+    "edition": 1,
+    "date": 1755634719363,
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "Background02"
+      },
+      {
+        "trait_type": "Plumage",
+        "value": "CUERPO"
+      },
+      {
+        "trait_type": "Eye",
+        "value": "OJO_11"
+      },
+      {
+        "trait_type": "Beak",
+        "value": "PICO_03"
+      },
+      {
+        "trait_type": "Clothe",
+        "value": "Clothe_01"
+      },
+      {
+        "trait_type": "Hat",
+        "value": "SOMBRERO_08"
+      },
+      {
+        "trait_type": "Accessory",
+        "value": "ACCESORIOS_02"
+      }
+    ],
+    "compiler": "HashLips Art Engine"
+  },
+  {
+    "name": "Your Collection #2",
+    "description": "Remember to replace this description",
+    "image": "ipfs://NewUriToReplace/2.png",
+    "dna": "5f60596d45246dcd8df3b81d057f48883ba6c21e",
+    "edition": 2,
+    "date": 1755634720336,
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "Background03"
+      },
+      {
+        "trait_type": "Plumage",
+        "value": "CUERPO"
+      },
+      {
+        "trait_type": "Eye",
+        "value": "OJO_01"
+      },
+      {
+        "trait_type": "Beak",
+        "value": "PICO_02"
+      },
+      {
+        "trait_type": "Clothe",
+        "value": "Clothe_01"
+      },
+      {
+        "trait_type": "Hat",
+        "value": "SOMBRERO_13"
+      },
+      {
+        "trait_type": "Accessory",
+        "value": "ACCESORIOS_02"
+      }
+    ],
+    "compiler": "HashLips Art Engine"
+  },
+  {
+    "name": "Your Collection #3",
+    "description": "Remember to replace this description",
+    "image": "ipfs://NewUriToReplace/3.png",
+    "dna": "0d229fcb25c4aa8c98c94056f545aaa40b59f6db",
+    "edition": 3,
+    "date": 1755634721313,
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "Background04"
+      },
+      {
+        "trait_type": "Plumage",
+        "value": "CUERPO"
+      },
+      {
+        "trait_type": "Eye",
+        "value": "OJO_04"
+      },
+      {
+        "trait_type": "Beak",
+        "value": "PICO_05"
+      },
+      {
+        "trait_type": "Clothe",
+        "value": "Clothe_01"
+      },
+      {
+        "trait_type": "Hat",
+        "value": "SOMBRERO_01"
+      },
+      {
+        "trait_type": "Accessory",
+        "value": "ACCESORIOS_02"
+      }
+    ],
+    "compiler": "HashLips Art Engine"
+  },
+  {
+    "name": "Your Collection #4",
+    "description": "Remember to replace this description",
+    "image": "ipfs://NewUriToReplace/4.png",
+    "dna": "4e548c970cd0f58438e230e6aee06cb3faa721ef",
+    "edition": 4,
+    "date": 1755634722306,
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "Background01"
+      },
+      {
+        "trait_type": "Plumage",
+        "value": "CUERPO"
+      },
+      {
+        "trait_type": "Eye",
+        "value": "OJO_02"
+      },
+      {
+        "trait_type": "Beak",
+        "value": "PICO_03"
+      },
+      {
+        "trait_type": "Clothe",
+        "value": "Clothe_01"
+      },
+      {
+        "trait_type": "Hat",
+        "value": "SOMBRERO_12"
+      },
+      {
+        "trait_type": "Accessory",
+        "value": "ACCESORIOS_02"
+      }
+    ],
+    "compiler": "HashLips Art Engine"
+  },
+  {
+    "name": "Your Collection #5",
+    "description": "Remember to replace this description",
+    "image": "ipfs://NewUriToReplace/5.png",
+    "dna": "f08cd71a58845b0702d16784c96be1a8f6af2744",
+    "edition": 5,
+    "date": 1755634723297,
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "Background04"
+      },
+      {
+        "trait_type": "Plumage",
+        "value": "CUERPO"
+      },
+      {
+        "trait_type": "Eye",
+        "value": "OJO_09"
+      },
+      {
+        "trait_type": "Beak",
+        "value": "PICO_01"
+      },
+      {
+        "trait_type": "Clothe",
+        "value": "Clothe_01"
+      },
+      {
+        "trait_type": "Hat",
+        "value": "SOMBRERO_14"
+      },
+      {
+        "trait_type": "Accessory",
+        "value": "ACCESORIOS_02"
+      }
+    ],
+    "compiler": "HashLips Art Engine"
+  }
+]

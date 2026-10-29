@@ -1,0 +1,36 @@
+{
+  "name": "QuipEcos Guacamayas #32",
+  "description": "Collection de guacamayas inspirée des cultures préhispaniques.",
+  "image": "ipfs://NewUriToReplace/32.png",
+  "edition": 32,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Background01"
+    },
+    {
+      "trait_type": "Plumage",
+      "value": "CUERPO"
+    },
+    {
+      "trait_type": "Eye",
+      "value": "OJO_01"
+    },
+    {
+      "trait_type": "Beak",
+      "value": "PICO_01"
+    },
+    {
+      "trait_type": "Clothe",
+      "value": "Clothe_01"
+    },
+    {
+      "trait_type": "Accessory",
+      "value": "ACCESORIOS_01"
+    },
+    {
+      "trait_type": "Hat",
+      "value": "SOMBRERO_01"
+    }
+  ]
+}

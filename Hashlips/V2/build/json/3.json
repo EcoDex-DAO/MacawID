@@ -1,0 +1,39 @@
+{
+  "name": "Your Collection #3",
+  "description": "Remember to replace this description",
+  "image": "ipfs://NewUriToReplace/3.png",
+  "dna": "0d229fcb25c4aa8c98c94056f545aaa40b59f6db",
+  "edition": 3,
+  "date": 1755634721313,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Background04"
+    },
+    {
+      "trait_type": "Plumage",
+      "value": "CUERPO"
+    },
+    {
+      "trait_type": "Eye",
+      "value": "OJO_04"
+    },
+    {
+      "trait_type": "Beak",
+      "value": "PICO_05"
+    },
+    {
+      "trait_type": "Clothe",
+      "value": "Clothe_01"
+    },
+    {
+      "trait_type": "Hat",
+      "value": "SOMBRERO_01"
+    },
+    {
+      "trait_type": "Accessory",
+      "value": "ACCESORIOS_02"
+    }
+  ],
+  "compiler": "HashLips Art Engine"
+}

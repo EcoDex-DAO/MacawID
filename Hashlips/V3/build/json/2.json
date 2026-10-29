@@ -1,0 +1,58 @@
+{
+  "name": "Las Guacamayas #2",
+  "symbol": "LGM",
+  "description": "Remember to replace this description",
+  "seller_fee_basis_points": 300,
+  "image": "2.png",
+  "external_url": "https://www.quipecos.com/",
+  "edition": 2,
+  "collection": {
+    "name": "QuipEcos - Guacamayas",
+    "family": "QuipEcos Collection"
+  },
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Background03"
+    },
+    {
+      "trait_type": "Plumage",
+      "value": "CUERPO"
+    },
+    {
+      "trait_type": "Eye",
+      "value": "OJO_05"
+    },
+    {
+      "trait_type": "Beak",
+      "value": "PICO_06"
+    },
+    {
+      "trait_type": "Clothe",
+      "value": "Clothe_01"
+    },
+    {
+      "trait_type": "Hat",
+      "value": "SOMBRERO_04"
+    },
+    {
+      "trait_type": "Accessory",
+      "value": "ACCESORIOS_01"
+    }
+  ],
+  "properties": {
+    "files": [
+      {
+        "uri": "2.png",
+        "type": "image/png"
+      }
+    ],
+    "category": "image",
+    "creators": [
+      {
+        "address": "XXX",
+        "share": 100
+      }
+    ]
+  }
+}
