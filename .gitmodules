@@ -1,0 +1,3 @@
+[submodule "WildMe/wbia-plugin-miew-id"]
+	path = WildMe/wbia-plugin-miew-id
+	url = https://github.com/WildMeOrg/wbia-plugin-miew-id.git
