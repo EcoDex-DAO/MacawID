@@ -9,6 +9,9 @@ services:
   wildbook:
     ports: !override
       - "80:8080"
+    volumes:
+      # replaces the submodule's copy (same target path; relative to Wildbook/devops/development); adds Delphinapterus leucas
+      - ../../../server/config/commonConfiguration.properties:/usr/local/tomcat/webapps/wildbook_data_dir/WEB-INF/classes/bundles/commonConfiguration.properties
     restart: unless-stopped
   opensearch:
     ports: !override
