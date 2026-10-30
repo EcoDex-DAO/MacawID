@@ -1,0 +1,69 @@
+{
+  "name": "Las Guacamayas #0003",
+  "symbol": "LGM",
+  "description": "Un Ara de la collection QuipEcos, inspiré des cultures préhispaniques et du travail de protection.",
+  "seller_fee_basis_points": 300,
+  "image": "3.png",
+  "external_url": "https://www.quipecos.com/nft/lgm/3",
+  "edition": 3,
+  "collection": {
+    "name": "QuipEcos - Guacamayas",
+    "family": "QuipEcos Collection"
+  },
+  "extensions": {
+    "ara_id": null,
+    "ara_name": null,
+    "id_source": "general",
+    "id_proof_uri": null,
+    "notes": null,
+    "linked_at": null,
+    "named_at": null,
+    "last_modified": null,
+    "updater": null
+  },
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Background02"
+    },
+    {
+      "trait_type": "Plumage",
+      "value": "CUERPO"
+    },
+    {
+      "trait_type": "Eye",
+      "value": "OJO_03"
+    },
+    {
+      "trait_type": "Beak",
+      "value": "PICO_05"
+    },
+    {
+      "trait_type": "Clothe",
+      "value": "Clothe_01"
+    },
+    {
+      "trait_type": "Hat",
+      "value": "SOMBRERO_05"
+    },
+    {
+      "trait_type": "Accessory",
+      "value": "ACCESORIOS_01"
+    }
+  ],
+  "properties": {
+    "files": [
+      {
+        "uri": "3.png",
+        "type": "image/png"
+      }
+    ],
+    "category": "image",
+    "creators": [
+      {
+        "address": "<DAO_MULTISIG_WALLET>",
+        "share": 100
+      }
+    ]
+  }
+}

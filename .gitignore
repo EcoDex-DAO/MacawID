@@ -1,0 +1,99 @@
+
+# Secrets
+.env
+.env.*
+!.env.example
+*.key
+id_rsa
+id_ed25519
+
+# Environnements Python
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# Fichiers temporaires
+*.log
+.cache/
+
+# === MACAWID : DONNEES VOLUMINEUSES ===
+
+# Datasets
+Dataset/
+opt/wildme/datasets/
+
+# Modèles IA
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.bin
+
+# Archives
+*.zip
+*.tar
+*.tar.gz
+*.war
+
+# Environnements et caches
+.venv/
+venv/
+__pycache__/
+node_modules/
+*.pyc
+*.log
+
+# Dépôts Git imbriqués
+**/.git/
+
+# Données et caches WildMe
+opt/wildme/wbia-cache/
+opt/wildme/wbia-data/
+opt/wildme/wbia-data-new/
+
+# Synchronisations et sauvegardes
+opt/wildme/sync/extracted/
+opt/wildme/sync/backups/
+
+# Secrets
+.env
+.env.*
+!.env.example
+
+
+# Dépôts Git imbriqués
+**/.git
+**/.git/**
+
+# Secrets
+**/.env
+**/.env.*
+!**/.env.example
+
+# Fichiers générés
+**/__pycache__/
+**/.venv/
+**/node_modules/
+
+# Données et résultats d'entraînement
+opt/macawid/train/data/
+opt/macawid/train/runs/
+
+# Artefacts de déploiement
+opt/wildme/deploy/webapps/
+opt/wildme/deploy/miewid/
+opt/wildme/deploy/logs/
+
+
+# Copies provenant du VPS
+/opt/macawid/Hashlips/
+/opt/macawid/WildMe/
+
+# Fichiers générés NFT
+/opt/wildme/nft/collection/images/
+/opt/wildme/nft/collection/thumbs/
+
+# Sauvegardes de configuration
+*.bak.*
+

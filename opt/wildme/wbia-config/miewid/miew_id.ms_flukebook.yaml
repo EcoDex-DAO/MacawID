@@ -1,0 +1,59 @@
+# Config locale WBIA MiewID reconstruite depuis le kit conservationxlabs/miewid-msv3
+# (remplace les URLs cthulhu.dyn.wildme.io en 404 par des chemins locaux /data/).
+exp_name: miewid-msv3
+project_name: miewid-msv3
+data:
+  images_dir: /data
+  image_size: [440, 440]
+  train:
+    anno_path: /data
+    n_filter_min: 2
+    n_subsample_max: 10
+  val:
+    anno_path: /data
+    n_filter_min: 2
+    n_subsample_max: 10
+  test:
+    anno_path: /data
+    n_filter_min: 2
+    n_subsample_max: 10
+    checkpoint_path: /data/miew_id.ms_flukebook.pt
+  preprocess_images:
+    apply: false
+  crop_bbox: false
+  use_full_image_path: false
+engine:
+  train_batch_size: 4
+  valid_batch_size: 4
+  epochs: 1
+  seed: 0
+  device: cuda
+  use_wandb: false
+  loss_module: softmax
+model_params:
+  model_name: efficientnetv2_rw_m
+  use_fc: false
+  fc_dim: 512
+  dropout: 0.0
+  loss_module: softmax
+  n_classes: 1
+  s: 30.0
+  margin: 0.5
+  ls_eps: 0.0
+  theta_zero: 0.785
+  pretrained: false
+  k: null
+swa_params:
+  swa_lr: 0.00014
+  swa_start: 21
+scheduler_params:
+  lr_start: 0.0
+  lr_max: 0.001
+  lr_min: 0.0
+  lr_ramp_ep: 1
+  lr_sus_ep: 1
+  lr_decay: 0.0
+test:
+  batch_size: 4
+  fliplr: false
+  fliplr_view: []
